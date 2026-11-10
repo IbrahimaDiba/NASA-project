@@ -1,0 +1,26 @@
+{
+  "dataset": "NASA LOLA LDEM_16 (Lunar Orbiter Laser Altimeter)",
+  "colorDataset": "NASA LROC Color 16-bit sRGB",
+  "referenceRadiusKm": 1737.4,
+  "units": "half-meter with +10km offset (elevation_m = raw * 0.5 - 10000)",
+  "elevationMinMeters": -8981.5,
+  "elevationMaxMeters": 10685.5,
+  "elevationRangeMeters": 19667,
+  "elevationMinKm": -8.9815,
+  "elevationMaxKm": 10.6855,
+  "rawMin": 2037,
+  "rawMax": 41371,
+  "gridResolution": {
+    "width": 720,
+    "height": 360,
+    "degPerPixel": 0.5,
+    "file": "ldem_elevation_720x360.bin",
+    "type": "Int16Array"
+  },
+  "displacementMaps": {
+    "lod2k": "ldem_displacement_2k.webp",
+    "lod4k": "ldem_displacement_4k.webp",
+    "normalizedRangeMeters": 19667,
+    "displacementScaleFactor": 0.011319788189248302
+  }
+}
